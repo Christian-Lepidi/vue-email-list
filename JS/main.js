@@ -18,7 +18,7 @@ createApp({
       }
     },
     created() {
-      getEmailsList();
+      this.getEmailsList();
     },
   },
 }).mount("#app");
