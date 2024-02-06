@@ -17,5 +17,8 @@ createApp({
           });
       }
     },
+    created() {
+      getEmailsList();
+    },
   },
 }).mount("#app");
