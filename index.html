@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="./JS/main.js" defer></script>
     <title>Vue Email List</title>
   </head>
   <body>
     <div id="app">
-     <button @click="getEmailsList()">Crea lista</button>   
+       
      <div v-for="mail in mailList">
      {{mail}}
      </div>  
